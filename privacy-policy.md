@@ -25,7 +25,7 @@ ObsidianRoll ("the app") is a photo and file gallery that encrypts your media on
 Your media metadata (file names, dates, albums, favourites, search index), the vault database, Telegram session data, app settings, and, if you turn on biometric unlock, a passphrase copy sealed by the Android Keystore. This data is not sent to us. App data is excluded from Android cloud backup and device-to-device transfer.
 
 ### Data sent to Telegram
-To sign in, the app sends your phone number and login code directly to Telegram, and uploads and downloads the encrypted chunks of your media. This is how the app stores your files. We do not receive or see this data. Telegram's own terms and privacy policy apply to it: https://telegram.org/privacy. You supply your own Telegram API credentials (from my.telegram.org); they are stored on your device.
+To sign in, the app sends your phone number and login code directly to Telegram, and uploads and downloads the encrypted chunks of your media. This is how the app stores your files. We do not receive or see this data. Telegram's own terms and privacy policy apply to it: https://telegram.org/privacy. The app includes its own Telegram API ID and hash, used only to identify the app to Telegram. If you choose to enter your own credentials from my.telegram.org instead, they are stored encrypted on your device.
 
 ### Data sent to our billing service (only if you buy Plus)
 If you buy ObsidianRoll Plus, the app sends the following to our billing service, which runs on Cloudflare Workers and Cloudflare D1, over HTTPS:

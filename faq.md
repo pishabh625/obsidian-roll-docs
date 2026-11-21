@@ -16,10 +16,10 @@ Encrypted chunks are stored in your own Telegram account. Names, albums and the 
 No. Zero-knowledge means nobody can recover it for you. Keep your recovery phrase somewhere safe and offline.
 
 ## Do I need a Telegram account?
-Yes. ObsidianRoll signs in to your Telegram account to store and fetch the encrypted data. You create your own Telegram API credentials at my.telegram.org during setup.
+Yes. ObsidianRoll signs in to your Telegram account to store and fetch the encrypted data. During setup you sign in with your phone number and the login code Telegram sends you. The app includes its own Telegram API credentials, so you do not need to create any. You can skip sign-in at first and connect Telegram later in Settings; backup starts once you are connected.
 
 ## What is free and what is Plus?
-Free includes your originals, recovery and export, with limits of 1 GB per file and 8 GB of imports per day. Plus raises the import limits, adds adjustable transfers and keeps deleted items in trash for 365 days. Prices are shown in the app by Google Play for your region.
+Free includes your originals, recovery and export, with limits of 1 GB per file and 4 GB of new imports per day, 2 upload and 2 download connections, and background backup on Wi-Fi only. Plus removes the file-size and daily import limits, adds backup over mobile data, up to 4 upload and 6 download connections, and keeps deleted items in trash for 365 days. The first time you reach a Free limit you can try Plus free for 14 days with no payment; it never turns into a paid subscription automatically. Prices are shown in the app by Google Play for your region.
 
 ## How do I cancel Plus?
 In Google Play: Menu > Payments and subscriptions > Subscriptions > ObsidianRoll > Cancel. Your media stays accessible if you cancel.
